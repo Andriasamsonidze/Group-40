@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex; 
+    justify-content: space-around; 
+    height: 50vh;
+}
+
+.block {
+    flex: 1;
+    margin: 10px; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 1.5rem; 
+    color: white; 
+}
+
+#block1 {
+    background-color: red;
+}
+
+#block2 {
+    background-color: yellow;
+}
+
+#block3 {
+    background-color: green;
+}
