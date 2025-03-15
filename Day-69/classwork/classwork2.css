@@ -1,0 +1,13 @@
+.section{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px ;
+    grid-template-rows: 150px 150px 150px 150px 150px ;
+    gap: 10px;
+    
+}
+
+.section div{
+    background-color: darkblue;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
