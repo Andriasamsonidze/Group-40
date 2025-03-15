@@ -1,0 +1,15 @@
+/*  1) შექმენით გრიდი რომელსაც ექნება 10-10 column და row ხოლო შექმენით ერთი დივი და ამ დივმა
+       დაიკავოს 3 ქოლუმნიდან 7 მდე ხოლო 5 როუდან 9 მდე გამოიყენეთ grid 
+       area ხოლო კომენტარების სახით მიუწრეთ ვრცელი ფორმებიც  */
+
+.section{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px ;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px ;
+    justify-content: center;
+}
+
+.section div{
+    background-color: darkblue;
+    grid-area: 5 / 3 / 10 / 8;
+}
